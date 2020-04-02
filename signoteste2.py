@@ -1,7 +1,7 @@
 #-*- coding:utf-8-*-
 """
 Signos
-Autor: Paloma
+Autor: Paloma Nogueira
 Função: descubrir o signo
 """
 print ("\n*----Signos----*\n")
