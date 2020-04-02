@@ -1,5 +1,4 @@
-<meta charset="UTF-8>
-<title> Meu Arquivo </title>
-<body>
+
+Meu Arquivo
+
 Paloma Nogueira
-</body>
