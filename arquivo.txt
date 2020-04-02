@@ -12,5 +12,6 @@ Cardápio
 Agenda
 Contato
 Trabalhe conosco
+Certificações
 
 -<h1>Meu Site</h1>
