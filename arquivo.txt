@@ -13,7 +13,3 @@ Agenda
 Contato
 Trabalhe conosco
 
-
-
-<h1>Meu Site</h1>
->>>>>>> master
