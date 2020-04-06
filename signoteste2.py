@@ -60,7 +60,7 @@ while True:
 	print("O Signo é:", signo) 
 	
 
-	teste=input("Deseja sair:")
+	teste=raw_input("Deseja sair:")
 	if teste.lower()=='s':
 		break
 		
