@@ -32,9 +32,9 @@ while True:
 		inss=salario*11/100
 		liquido=salario-inss
 
-	print("Valor pago de INSS:",inss)
-	print("Valor líquido:",liquido)
+	print ("Valor pago de INSS:",inss)
+	print ("Valor líquido:",liquido)
 
-	teste=input("\nDeseja sair:")
+	teste=raw_input("Deseja sair:")
 	if teste.lower()=="s":
 		break
