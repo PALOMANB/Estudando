@@ -17,7 +17,7 @@ Sair=False
 
 while True:
 	salario=input("\nSalário Bruto:")
-	salario=int(salario)
+	salario=float(salario)
 
 
 	if salario<=1830.29:
