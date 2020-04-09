@@ -25,27 +25,27 @@ while True:
         inss=salario*11/100
         irrf=salario*7.5/100
         dependentes=(salario*2/100)*dependentes
-        horas_extras=(salario*0.60/100)*horas_extras
+        horas_extras=((salario/168)*2)*horas_extras
         liquido=salario-(inss+irrf)+horas_extras+dependentes
 
     if salario>=9922.29 and salario<=13167.00:
         inss=salario*11/100
         irrf=salario*15/100
-        horas_extras=(salario*0.60/100)*horas_extras
-        dependentes=(salario*2/100)*dependentes
+        horas_extras=((salario/168)*2)*horas_extras
+        dependentes=(salario*2/100)*dependente
         liquido=salario-(inss+irrf)+horas_extras+dependentes
 
     if salario>=13167.01 and salario<=16380.38:
         inss=salario*11/100
         irrf=salario*22.5/100
-        horas_extras=(salario*0.60/100)*horas_extras
+        horas_extras=((salario/168)*2)*horas_extras
         dependentes=(salario*2/100)*dependentes
         liquido=salario-(inss+irrf)+horas_extras+dependentes
 
     if salario>16380.38:
         inss=salario*11/100
         irrf=salario*7.5/100
-        horas_extras=(salario*0.60/100)*horas_extras
+        horas_extras=((salario/168)*2)*horas_extras
         dependentes=(salario*2/100)*dependentes
         liquido=salario-(inss+irrf)+horas_extras+dependentes
 
