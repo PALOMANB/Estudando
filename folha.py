@@ -17,9 +17,9 @@ print("\n---FOLHA DE PAGAMENTO---")
 Sair=False
 
 while True:
-    salario=(int(input("\nSalário Bruto:")))
-    horas_extras=(int(input("Horas Extras:")))
-    dependentes=(int(input("Dependentes:")))
+    salario=float(input("\nSalário Bruto:"))
+    horas_extras=float(input("Horas Extras:"))
+    dependentes=int(input("Dependentes:"))
 
     if salario>=6677.56 and salario<=9922.28:
         inss=salario*11/100
@@ -49,11 +49,11 @@ while True:
         dependentes=(salario*2/100)*dependentes
         liquido=salario-(inss+irrf)+horas_extras+dependentes
 
-    print("Desconto INSS:", inss)
-    print("Desconto IRRF:", irrf)
-    print("Horas Extras:", horas_extras)
-    print("Dependentes:", dependentes)
-    print("Salário Líquido:", liquido)
+    print("Desconto INSS:","{:.2f}".format(inss))
+    print("Desconto IRRF:","{:.2f}".format(irrf))
+    print("Horas Extras:","{:.2f}".format(horas_extras))
+    print("Dependentes:","{:.2f}".format(dependentes))
+    print("Salário Líquido:","{:.2f}".format(liquido))
 
     teste=input("\nDeseja sair:")
     if teste.lower()=="s":
