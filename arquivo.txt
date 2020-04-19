@@ -1,9 +1,8 @@
-<meta charset="UTF-8>
-<title> Meu Arquivo </title>
-<body>
-Paloma Nogueira
-</body>
 
+Meu Arquivo
+
+Paloma Nogueira
+<<<<<<< HEAD
 
 <!DOCTYPE html>
 <html>
@@ -12,14 +11,15 @@ Paloma Nogueira
 <title> Meu Site </title>
 </head>
 
-<body>
-Meu Site
-
 <ul>
     <li><a href="index.html">Home</a></li>
     <li><a href="sobre.html">Sobre</a></li>
     <li><a href="contato.html">Contato</a></li>
 </ul>
-
-</body>
 </html>
+=======
+
+<body>
+<h1>Meu Site</h1>
+</body>
+>>>>>>> master
