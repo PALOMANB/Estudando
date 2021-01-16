@@ -4,22 +4,11 @@ Meu Arquivo
 Paloma Nogueira
 <<<<<<< HEAD
 
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title> Meu Site </title>
-</head>
+Meu Site
 
-<ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="sobre.html">Sobre</a></li>
-    <li><a href="contato.html">Contato</a></li>
-</ul>
-</html>
-=======
+Home
+Sobre
+Contato
 
-<body>
 <h1>Meu Site</h1>
-</body>
 >>>>>>> master
